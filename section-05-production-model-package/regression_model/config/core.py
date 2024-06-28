@@ -13,6 +13,11 @@ CONFIG_FILE_PATH = PACKAGE_ROOT / "config.yml"
 DATASET_DIR = PACKAGE_ROOT / "datasets"
 TRAINED_MODEL_DIR = PACKAGE_ROOT / "trained_models"
 
+print(f"PACKAGE_ROOT: {PACKAGE_ROOT}")
+print(f"ROOT: {ROOT}")
+print(f"CONFIG_FILE_PATH: {CONFIG_FILE_PATH}")
+print(f"DATASET_DIR: {DATASET_DIR}")
+print(f"TRAINED_MODEL_DIR: {TRAINED_MODEL_DIR}")
 
 class AppConfig(BaseModel):
     """

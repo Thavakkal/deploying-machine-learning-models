@@ -52,6 +52,7 @@ if settings.BACKEND_CORS_ORIGINS:
 
 if __name__ == "__main__":
     # Use this for debugging purposes only
+    # Since the logging level is WARNING, it will be displayed on the console
     logger.warning("Running in development mode. Do not run like this in production.")
     import uvicorn
 

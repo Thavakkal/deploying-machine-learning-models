@@ -13,6 +13,7 @@ class PredictionResults(BaseModel):
 class MultipleHouseDataInputs(BaseModel):
     inputs: List[HouseDataInputSchema]
 
+    # The following is an example data, which can be seen on the localhost:8001/docs and be used to try the endpoint
     class Config:
         schema_extra = {
             "example": {
